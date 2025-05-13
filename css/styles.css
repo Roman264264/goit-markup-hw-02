@@ -1,5 +1,13 @@
 body {
-    font-family: "roboto" sans-serif ;
+    font-family: "Roboto" sans-serif ;
+    color: #ffffff;
+
+}
+a address {
+    text-decoration: none;
+}
+ul ol {
+    list-style-type: none;
 }
 button {
     cursor: pointer;
