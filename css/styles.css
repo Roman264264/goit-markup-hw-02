@@ -54,7 +54,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.header-address-item:hover, .header-address-item:focus {
+.address-link:hover, .address-link:focus {
     color: #404bbf;
 }
 .section-box {
