@@ -44,18 +44,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.header-item :hover {
+.header-item :hover, .header-item :focus {
 color: #404bbf;
 }
-.header-item :focus {
-    color: #404bbf;
-}
-.header-address {
+.header-address-item {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.header-address-item:hover, .header-address-item:focus {
+    color: #404bbf;
 }
 .section-box {
     background-color: #2E2F42;
@@ -77,11 +77,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 }
-.box-btn:hover {
+.box-btn:hover, .box-btn:focus {
     background-color: #404BBF;
-}
-.box-btn:focus {
-background-color: #404BBF;
 }
 .information-title {
     font-weight: 500;
@@ -107,10 +104,11 @@ background: #fff;
 .hero-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 
 }
 .hero-subtitle {
